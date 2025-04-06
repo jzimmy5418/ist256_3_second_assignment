@@ -132,7 +132,7 @@ const ctx = document.getElementById('myChart').getContext('2d');
 const data = {
     labels: lengths,
     datasets: [{
-        label: 'Results',
+        label: 'Elapsed times (Seconds)',
         data: elapsedTimes,
         fill: true,
     }]
