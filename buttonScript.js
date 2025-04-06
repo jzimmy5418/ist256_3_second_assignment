@@ -91,7 +91,6 @@ $(document).ready(function () {
             for (let i = 0; i < elapsedTimes.length; i++) {
                 $attemptText.append("<div class=\"row justify-content-md-center\"> <div class=\"col-lg-1 border\">" + i + "</div><div class=\"col-lg-1 border\">" + startTimes[i] + "</div><div class=\"col-lg-1 border\">" + endTimes[i] + "</div>");
             }
-            $attemptText.append("<div id='results' style='height: 350px;'></div>")
             $attemptText.show();
             $results.show();
             attemptClick=1;
